@@ -4,6 +4,9 @@ Devo Coding Exercise - Palindromes
 ### Requirements
 + java 8
 + maven 3 
+### Big O time and Space Complexity
++ Time complexity is O(n) lineal (assuming that replaceAll and toLowerCase methods performs at least as O(n))
++ Space complexity is O(n) increases linearly by input size
 ### Assumptions
 + Only letters (either alphabet symbols or numbers) are relevant for palindrome existance. 
 + One letter words are palindromes.
@@ -18,5 +21,3 @@ java -jar palindromes-1.0-SNAPSHOT.jar
 ``` 
 + Introduce sentences to check if they are palindromes
 + Enjoy!
-
-Big O running time for this algorithm is O(n) (assuming that replaceAll and toLowerCase methods performs at least as O(n))
